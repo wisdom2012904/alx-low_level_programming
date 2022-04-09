@@ -10,7 +10,7 @@ int m;
 
 for (m = 0; m <= 10; m++)
 {
-printf("%d is my sinle digit number\n", m);
+printf("%d", m);
 }
 
 return (0);
