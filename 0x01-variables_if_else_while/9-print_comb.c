@@ -14,8 +14,8 @@ if (num1 == 57)
 {
 break;
 }
-putchar('.');
-putchar(' ');
+putchar(',');
+putchar('');
 }
 putchar ('\n');
 
