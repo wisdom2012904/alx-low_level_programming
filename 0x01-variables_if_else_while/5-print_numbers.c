@@ -6,11 +6,12 @@
 */
 int main(void)
 {
-int mysingledigit;
+int m;
 
-for (mysingledigit = 0; mysingledigit < 10; mysingledigit++)
+for (m = 0; m <= 10; m++)
 {
-printf("%i is my sinle digit number\n", mysingledigit);
+printf("%d is my sinle digit number\n", m);
 }
+
 return (0);
 }
