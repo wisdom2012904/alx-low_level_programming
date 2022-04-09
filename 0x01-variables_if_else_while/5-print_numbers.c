@@ -12,7 +12,7 @@ for (m = 0; m <= 9; m++)
 {
 printf("%d", m);
 }
-printf("");
+printf("\n");
 
 return (0);
 }
