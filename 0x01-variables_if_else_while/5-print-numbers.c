@@ -6,11 +6,11 @@
 */
 int main(void)
 {
-int mysingledigit;
+int n;
 
-for (mysingledigit = 0; mysingledigit < 10; mysingledigit++)
+for (n = 0; n < 10; n++)
 {
-printf("%i", mysingledigit);
+printf("%i", n);
 }
 printf("\n");
 
