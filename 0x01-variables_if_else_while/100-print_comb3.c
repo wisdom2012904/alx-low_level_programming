@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 /**
 * main - print two digi comb in asce order
 *
