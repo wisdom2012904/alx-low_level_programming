@@ -6,13 +6,13 @@
 */
 int main(void)
 {
-char alpa;
+char alphabet;
 
-for (alpa = 122; alpa <= 97 ; alpa--)
+for (alphabet = 122; alphabet <= 97 ; alphabet--)
 {
-putchar (alpa);
+putchar(alphabet);
 }
-putchar ('\n');
+putchar('\n');
 
 return (0);
 }
