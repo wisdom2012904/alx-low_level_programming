@@ -1,9 +1,9 @@
 #include "main.h"
 /**
 * _isalpha - Return 1 if c is a letter. lowercase or uppercase
-*
-* Return always 0
 *@c: The int to print
+* Return: always 0
+*
 */
 int _isalpha(int c)
 {
