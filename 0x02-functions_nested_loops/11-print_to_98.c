@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - a function that prints all natural numbers from n to 98
+* a function that prints all natural numbers from n to 98
 *
 * Return : (0) 
 */
