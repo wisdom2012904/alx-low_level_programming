@@ -1,15 +1,20 @@
 #include "main.h"
+
 /**
-* main - Entry point : a function that prints alphabetica letters in lowercase
-*
-*Return : x10 a-z 
-*/
+ * print_alphabet - print alphabet lowercase
+ *
+ * Return: Always 0.
+ */
+
 void print_alphabet(void)
 {
-int n;
-for (n = 'a'; n <= 'z'; n++)
+char alphabet;
+
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-_putchar(n);
+_putchar(alphabet);
 }
-_putchar ('\n');
+
+_putchar('\n');
+
 }
