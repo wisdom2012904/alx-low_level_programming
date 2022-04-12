@@ -1,0 +1,15 @@
+#include "main.h"
+/**
+* main - a function that prints the sign of a number
+*
+* Return : (1) 
+*/
+int print_sign(int n)
+{
+if ((n = '+' && n > 0)
+return (1);
+else if ((n = '+' && n = 0)
+return (0);
+else if ((n = '-' && n < 0)
+return (-1);
+} 
