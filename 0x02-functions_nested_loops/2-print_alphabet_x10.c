@@ -2,7 +2,7 @@
 /**
 * print_alphabet - a function that prints alphabetica letters in lowercase
 *
-* Return : x10 a-z 
+* Return : Always 0
 */
 void print_alphabet(void)
 {
