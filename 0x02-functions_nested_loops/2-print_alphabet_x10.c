@@ -6,15 +6,15 @@
 */
 void print_alphabet(void)
 {
-int n;
+int lowwercase;
 int i;
 
 i = 0;
 while (i <= 9)
 {
-for (n = 'a'; n <= 'z'; n++)
+for (lowwercase = 'a'; lowwercase <= 'z'; n++)
 {
-_putchar(n);
+_putchar(lowwercase);
 } 
 
 i++;
