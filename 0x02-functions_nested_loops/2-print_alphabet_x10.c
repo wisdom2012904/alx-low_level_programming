@@ -12,7 +12,7 @@ int i;
 i = 0;
 while (i <= 9)
 {
-for (lowwercase = 'a'; lowwercase <= 'z'; n++)
+for (lowwercase = 'a'; lowwercase <= 'z'; lowwercase++)
 {
 _putchar(lowwercase);
 } 
