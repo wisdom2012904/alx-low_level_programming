@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-char school[3] = "Holberton";
+char school[3] = "ALX";
 	int n;
 _putchar('_');
 _putchar('p');
