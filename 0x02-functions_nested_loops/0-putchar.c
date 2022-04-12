@@ -6,6 +6,8 @@
 */
 int main(void)
 {
+char school[3] = "Holberton";
+	int n;
 _putchar('_');
 _putchar('p');
 _putchar('u');
@@ -15,5 +17,12 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
+
+for (n = 0; n < 9; n++)
+	{
+		_putchar(school[n]);
+	}
+	_putchar('\n');
+	return (0);
 return (0);
 }
