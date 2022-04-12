@@ -1,22 +1,24 @@
 #include "main.h"
+
 /**
-* print_alphabet - a function that prints alphabetica letters in lowercase
-*
-* Return : Always 0
-*/
-void print_alphabet(void)
+ * print_alphabet_x10 - print alphabet
+ *
+ * Return: Always 0.
+ */
+void print_alphabet_x10(void)
 {
-int lowwercase;
-int i;
+int alphabet;
+int count;
 
-i = 0;
-while (i <= 9)
-{
-for (lowwercase = 'a'; lowwercase <= 'z'; n++)
-{
-_putchar(lowwercase);
-} 
 
-i++;
-_putchar ('\n');
-} 
+count = 0;
+while (count < 10)
+{
+for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
+{
+_putchar(alphabet);
+}
+
+count++;
+_putchar('\n');
+}
