@@ -6,7 +6,9 @@
 */
 void print_alphabet(void)
 {
-int n, i;
+int n;
+int i;
+
 i = 0;
 while (i <= 9)
 {
@@ -14,6 +16,7 @@ for (n = 'a'; n <= 'z'; n++)
 {
 _putchar(n);
 } 
+
 i++;
 _putchar ('\n');
 } 
