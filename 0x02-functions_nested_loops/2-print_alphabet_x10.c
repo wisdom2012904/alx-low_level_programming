@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_alphabet - a function that prints alphabetica letters in lowercase
+*print_alphabet_x10 - a function that prints alphabetica letters in lowercase
 *
 *Return: Always 0
 */
@@ -15,8 +15,7 @@ while (i < 10)
 for (lowwercase = 'a'; lowwercase <= 'z'; lowwercase++)
 {
 _putchar(lowwercase);
-} 
-
+}
 i++;
 _putchar ('\n');
 }
