@@ -2,9 +2,9 @@
 
 /**
  * largest_number - returns the largest of 3 numbers
- * @a: first operand
- * @b: second opearnd
- * @c: third operand
+ * @a: first integer
+ * @b: second integer
+ * @c: third integer
  * Return: largest number
  */
 
