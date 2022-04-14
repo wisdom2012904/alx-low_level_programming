@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
- * print_sign - return 0 letter not lowercase, 1 letter lowercase
- *
- * Return: Always 0.
- */
+* main - tests function prints if integer positive or negative
+* Return: 0
+*/
+
 int main(void)
 {
 	int i;
