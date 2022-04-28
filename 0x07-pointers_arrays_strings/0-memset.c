@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _memset - fills string with constant char b upto n bytes
  * @s: input pointer to string
@@ -8,11 +10,12 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int;
+	unsigned int i = 0;
 
-	for (i = 0; i < n; i++)
+	while (i < n)
 	{
 		s[i] = b;
+		i++;
 	}
 	return (s);
 }
