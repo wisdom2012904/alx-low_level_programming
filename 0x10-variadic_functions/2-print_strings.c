@@ -7,10 +7,9 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-
-	va_list args;
 	register unsigned int i = 0;
 	char *ptr;
+	va_list args;
 
 	va_start(args, n);
 	while (i < n)
