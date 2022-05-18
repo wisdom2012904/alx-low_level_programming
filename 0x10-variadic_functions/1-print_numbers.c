@@ -2,9 +2,6 @@
 
 /**
  * print_numbers - print numbers'function
- *
- * Description: It print prime number, followed by a new line
- *
  * @separator: separator string
  * @n: number of arguments
  */
