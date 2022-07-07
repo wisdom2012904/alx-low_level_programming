@@ -1,4 +1,5 @@
 #include "lists.h"
+#include "lists.h"
 
 /**
  * add_dnodeint - adds a new node at the beginning
@@ -26,6 +27,16 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 		while (h->prev != NULL)
 			h = h->prev;
 	}
+
+	new->next = h;
+
+	if (h != NULL)
+		h->prev = new;
+
+	*head = new;
+
+	return (new);
+}
 
 	new->next = h;
 
